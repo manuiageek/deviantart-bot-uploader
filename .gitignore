@@ -1,0 +1,21 @@
+# Les fichiers et dossiers Python couramment ignorés
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+venv.bak/
+*.env
+
+# Fichiers de logs
+*.log
+
+# Ignore les fichiers système
+.DS_Store
+Thumbs.db
+
+# Ignorer le fichier de configuration contenant les informations sensibles
+config.json
