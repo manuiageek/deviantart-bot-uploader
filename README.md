@@ -11,6 +11,8 @@ This bot automates the process of uploading images to DeviantArt using the Devia
 
 ## Prerequisites
 
+pip install flask requests
+
 ### Create an "Application" on DeviantArt
 
 1. Go to [DeviantArt Developers](https://www.deviantart.com/developers).
@@ -52,7 +54,15 @@ This bot automates the process of uploading images to DeviantArt using the Devia
 
 - Ensure your local machine is accessible from the outside (if required) to work with the OAuth2 Redirect URI.
 - This bot uses the DeviantArt API to upload images.
+- You will need firefox for my program to execute properly
 
 ---
 
 *This README.md was redacted with ChatGPT.*
+
+
+# PENTAHO (v9) transformation (kitchen ETL software)
+The PENTAHO folder contains pentaho files to automate upload on devian art
+It loads an xlsx file (CHARACTER_SELECTOR.xlsx) to get all the information for uploads.
+WARNING : don't just execute the program as it might delete from files on your harddrive ! 
+Use it as a way to learn how I manage my files in order to make your own version
